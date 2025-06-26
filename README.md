@@ -1,5 +1,34 @@
 # Análisis de Algoritmos y Visualización del Grafo de la Red ‘X’
 
+
+## UNIVERSIDAD LA SALLE DE AREQUIPA
+
+### CARRERA:
+**Ingeniería de Software**
+
+### CURSO:
+**Análisis y Diseño de Algoritmos**
+
+---
+
+### INTEGRANTES:
+- Quispe Cjuiro Danny  
+- Vizarreta Checya Carlos
+
+### DOCENTE:
+**Edson Francisco Luque Mamani**
+
+### SEMESTRE:
+**V – 2025 - I**
+
+---
+
+**Arequipa, 2025**
+
+
+---
+
+
 ## Introducción
 ### Motivación
 Las redes sociales son estructuras complejas que reflejan interacciones humanas a gran escala. Analizar estas redes permite descubrir patrones de conectividad, identificar comunidades y entender dinámicas sociales, con aplicaciones en marketing, sociología y tecnología.
@@ -106,9 +135,6 @@ def louvain_optimizado(grafo, delta_q_min=1e-5, cambio_minimo_porcentaje=0.01):
     return defaultdict(list, {c: [v.valor for v in vertices if comunidad[v] == c] for c in set(comunidad.values())})
 ```
 
-**Visualización de Comunidades**:
-![Comunidades Detectadas](img/comunidades_louvain.png)
-*Figura 2: Comunidades detectadas con el algoritmo de Louvain, coloreadas por clúster.*
 
 ### 4. Análisis Avanzado
 - **Análisis de Camino Más Corto**: Se implementa el algoritmo de Dijkstra para calcular la longitud promedio de los caminos más cortos desde un nodo origen.
